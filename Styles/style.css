@@ -1,0 +1,28 @@
+body
+{
+	background-color: crimson;
+	text-align: center;
+}
+
+button
+{
+	width: 100pt;
+}
+
+li
+{
+	align-content: center;
+	font-weight: bold;
+	text-align: left;
+}
+
+ul
+{
+	background-color: darksalmon;
+	border: 2px solid black;
+	list-style-type: disc;
+	margin: 0 auto;
+	text-align: center;
+	white-space: nowrap;
+	width: 300pt;
+}
