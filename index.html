@@ -7,20 +7,18 @@
 
 </head>
 
-
 <body>
-
 
     <input type="text" id="newText" onkeydown="checkEnter(event)">
 
-    <button id="butAppend" onclick="appendList()"  style="margin-bottom: 1rem;">Append To List</button>
+    <button id="butAppend" class="funcButton" onclick="appendList()">Append To List</button>
 
     <br>
 
     <input type="number" id="delNum">
 
-    <button id="butDelete" onclick="deleteItem()" style="margin-bottom: 1rem;">Delete By Index</button>
-    
+    <button id="butDelete" class="funcButton" onclick="deleteItem()">Delete By Index</button>
+
     <br>
 
     <ul id="objList">
