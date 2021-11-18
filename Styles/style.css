@@ -1,14 +1,14 @@
-body{
-
-	background-color: crimson;
-	text-align: center;
-
-}
-
 .funcbutton{
 
 	width: 100pt;
 	margin-bottom: 1rem;
+
+}
+
+body{
+
+	background-color: crimson;
+	text-align: center;
 
 }
 

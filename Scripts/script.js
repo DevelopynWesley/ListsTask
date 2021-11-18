@@ -20,6 +20,7 @@ function deleteItem() {
 
     let index = document.getElementById('delNum').value;
     let currList = document.getElementById('objList');
+    
     currList.removeChild(currList.childNodes[index]);
     
     let content = currList.innerHTML;
