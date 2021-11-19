@@ -10,7 +10,10 @@ function appendList() {
     let delBtn = document.createElement("button");
     delBtn.innerHTML = "X";
     newLItem.id = document.getElementById("objList").getElementsByTagName("li").length + 1;
-    delBtn.onclick = function () {document.getElementById(newLItem.id).remove();}
+    
+    delBtn.onclick = function () {
+        document.getElementById(newLItem.id).remove();
+    }
     
     newLItem.appendChild(delBtn); 
 
@@ -28,12 +31,11 @@ function deleteItem() {
 
 }
 
-function checkEnter(e){
+function checkEnter(e) {
 
-    let key=e.keyCode || e.which;
+    let key = e.keyCode || e.which;
       
-    if (key==13)
-    {
+    if (key == 13){
       appendList();
     }
 

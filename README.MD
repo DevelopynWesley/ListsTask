@@ -1,4 +1,4 @@
 
-# FIRST REPOSITORY DEVELOPED BY DEVELOPYNWESLEY
+# LIST TASK BY DEVELOPYNWESLEY
 
-Add/Deletable List Task
+This repository contains the implementation of a training task to create a basic webpage with a list object that can be added to, with each list item having a button to delete itself if necessary
